@@ -596,5 +596,5 @@
 .small_product_box img {
   position: absolute;
   right: 5%;
-  top: 35%;
+  bottom: 15px;
 }
