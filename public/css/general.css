@@ -21,6 +21,7 @@ a {
   flex-direction: row;
   justify-content: center;
   background-color: #443297;
+  padding-top: 20px;
 }
 .navbar_frame .container {
   padding: 20px 0px 14px;
