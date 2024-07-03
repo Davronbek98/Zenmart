@@ -722,7 +722,7 @@
   justify-content: center;
   align-items: center;
 }
-/* EVENT */
+/* EVENT Product */
 
 .home_page .event_frame {
   position: relative;
@@ -732,8 +732,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(/public/images/image\ 82.svg);
-  background-repeat: no-repeat;
+  background-image: url("../images/image\ 82.svg");
 }
 .event_frame .container {
   flex-direction: row;
