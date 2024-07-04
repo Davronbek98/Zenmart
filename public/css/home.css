@@ -1,5 +1,4 @@
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -733,6 +732,7 @@
   flex-direction: row;
   justify-content: center;
   background-image: url("../images/image\ 82.svg");
+  background-size: cover;
 }
 .event_frame .container {
   flex-direction: row;
@@ -807,7 +807,7 @@
 }
 .event_frame .event_product_wrapper .event_product_boxes {
   position: relative;
-  width: auto;
+  width: 850px;
   height: auto;
   display: flex;
   flex-direction: row;
