@@ -369,6 +369,34 @@
 .shop_category_frame .container {
   flex-direction: column;
 }
+.container .category_top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.category_top span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #041e42;
+}
+.category_top a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #041e42;
+}
+.category_top a:hover {
+  border-bottom: 2px solid #041e42;
+}
 
 .shop_category_frame .container .category_wrapper {
   margin-top: 30px;
