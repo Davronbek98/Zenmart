@@ -1,0 +1,373 @@
+/*Page Title*/
+
+.card_title {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  flex-direction: row;
+  justify-content: center;
+}
+.container .page_title {
+  width: 205px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.page_title span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+/*Shipping*/
+
+.shipping_title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+}
+.container .ship_title {
+  width: 424px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ship_title span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+.ship_title .bar {
+  width: 424px;
+  height: 6px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(243, 245, 246);
+  border-radius: 6px;
+}
+.bar div {
+  width: 241px;
+  height: 6px;
+  background-color: rgb(245, 195, 75);
+  border-radius: 6px;
+}
+.bar img {
+  width: 37px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Card Table*/
+
+.card_table {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card_table .container {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container .left_table {
+  width: 872px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(243, 245, 246);
+  background-color: #ffff;
+  border-radius: 6px 6px 0px 0px;
+}
+.left_table .table_head {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 245, 246);
+}
+.table_head span {
+  margin: 0 10px 0 10px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.table_bottom {
+  width: 872px;
+  height: 165px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(243, 245, 246);
+  background-color: #ffff;
+}
+.table_bottom .product_img {
+  width: 112px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_img img {
+  width: 93px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.table_bottom .product_info {
+  width: 192px;
+  height: 122px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product_info span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+.table_bottom .price {
+  width: 60px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 126px;
+}
+.price span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+.table_bottom .quantity {
+  width: 103px;
+  height: 42px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.quantity .btn.active {
+  width: 28px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 50%;
+  background-color: #f3f5f6;
+  cursor: pointer;
+}
+.table_bottom .total {
+  width: 60px;
+  height: 28px;
+  margin: 10px 0 0 44px;
+}
+.total span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+.table_bottom .remove {
+  width: 13px;
+  height: 14px;
+  margin: 10px 5px 0 90px;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.container .right_table {
+  width: 422px;
+  height: 418px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+}
+.right_table .card_name {
+  width: 95px;
+  height: 29px;
+  margin: 25px 0 0 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card_name span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgb(4, 30, 66);
+}
+.right_table .info_box {
+  width: 366px;
+  height: 167px;
+  margin: 20px 0 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+.info_box div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info_box div span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: rgb(4, 30, 66);
+}
+.info_box .total {
+  border-top: 1px solid rgb(234, 234, 234);
+}
+.total span {
+  margin-top: 10px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgb(4, 30, 66);
+}
+.right_table .button {
+  width: 365px;
+  height: 63px;
+  margin: 90px 0 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 195, 75);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Apply Coupon*/
+
+.apply_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 30px 0 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.apply_frame .container {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container .coupon {
+  width: 360px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+}
+.coupon input {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.coupon a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container .shopping {
+  width: 200px;
+  height: 55px;
+  margin-left: 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(245, 195, 75);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.shopping a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+.container .update_card {
+  width: 130px;
+  height: 55px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 195, 75);
+  border-radius: 6px;
+  cursor: pointer;
+}
